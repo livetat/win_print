@@ -6,16 +6,6 @@ The WinPrint library offers a way to send raw data to
 a system printer on windows. It also allows to fetch the
 printer list.
 
-## Author
-
-Martin Schuster
-
-www.schul-logistik.de
-
-## License
-
-MIT
-
 ## Installation
 
     gem install win_print
@@ -42,3 +32,13 @@ MIT
     #
     WinPrint.raw_print("Microsoft Print to PDF", "Some raw data.", "Test Job from WinPrint gem")
     # => true
+
+## Author
+
+Martin Schuster
+
+www.schul-logistik.de
+
+## License
+
+MIT
