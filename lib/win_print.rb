@@ -26,6 +26,7 @@ module WinPrint
   #   job_name: (String) will be displayed e.g. in the printer queue
   #
   # Note: For data, the encoding matters and the data will be sent as-is to the printer.
+  # Will raise RuntimeError if something goes wrong.
 
   def self.raw_print(printer_name, data, job_name)
     WinPrint::Native.raw_print(printer_name.encode("CP1252"), data,
