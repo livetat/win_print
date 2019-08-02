@@ -6,20 +6,21 @@ The WinPrint library offers a way to send raw data to
 a system printer on windows. It also allows to fetch the
 printer list.
 
-== Author
+## Author
 
 Martin Schuster
+
 www.schul-logistik.de
 
-== License
+## License
 
-WinPrint is MIT licensed.
+MIT
 
-== Installation
+## Installation
 
     gem install win_print
 
-== Example usage
+## Example usage
 
     require 'win_print'
 
