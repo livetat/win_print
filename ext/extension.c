@@ -1,6 +1,5 @@
 #include "ruby/ruby.h"
 #include "ruby/encoding.h"
-#include "library.h"
 #include "raw_print.h"
 
 // Get printer names of all system printers.
