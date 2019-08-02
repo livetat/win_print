@@ -30,7 +30,7 @@ printer list.
     # Note: For data, the encoding matters and the data will be sent as-is to the printer.
     # Will raise RuntimeError if something goes wrong.
     #
-    WinPrint.raw_print("Microsoft Print to PDF", "Some raw data.", "Test Job from WinPrint gem")
+    WinPrint.raw_print("Zebra GK420t", "Some raw data.", "Test Job from WinPrint gem")
     # => true
 
 ## Author
