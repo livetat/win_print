@@ -7,15 +7,16 @@ GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.11.3)
-    rake (10.5.0)
+    rake (13.0.1)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
-  bundler (~> 2.0)
-  minitest (~> 5.0)
-  rake (~> 10.0)
+  bundler (>= 1.16)
+  minitest
+  rake
   win_print!
 
 BUNDLED WITH
